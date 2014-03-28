@@ -1,0 +1,6 @@
+#!/usr/local/plan9/bin/9 rc
+
+# normal delimiter of / wont work with file names. So choose one that
+# should not appear anywhere for fear of angering the shell. the hash sign 
+diff -nc $2  $5 | sed s'#'^$2^'#'^$1^'#'g
+exit 0

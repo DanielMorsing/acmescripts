@@ -1,0 +1,3 @@
+#!/usr/local/plan9/bin/9 rc
+
+ssam 'x/^	/d'
